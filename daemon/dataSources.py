@@ -1,6 +1,3 @@
 from .dataSourceModel import dataSourceModel
-
-
-class source():
-    def get(self):
-        pass
+from shared.models import Notification
+from datetime import datetime

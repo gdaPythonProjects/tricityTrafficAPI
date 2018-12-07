@@ -1,8 +1,8 @@
 from abc import ABC, abstractmethod
 
 
-def dataSourceModel(ABC):
+class dataSourceModel(ABC):
 
     @abstractmethod
-    def get(self):
+    def get(self, date=None):
         pass
