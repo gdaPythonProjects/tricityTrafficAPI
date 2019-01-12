@@ -1,9 +1,10 @@
+from daemon.dataSources import TrojmiastoDataSource
 
 
 class DataSourcePuller:
     def __init__(self):
         self.sources = [
-
+            TrojmiastoDataSource
         ]
 
     def pull_data(self):
