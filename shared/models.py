@@ -3,6 +3,7 @@ from django.utils import timezone
 
 # Create your models here.
 
+
 class Notification(models.Model):
     """
     Model representing a single notification
