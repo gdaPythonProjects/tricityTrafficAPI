@@ -1,8 +1,14 @@
 from django.http import HttpResponse
-from django.shortcuts import render
 
-# Create your views here.
+from daemon.fetcher import Fetcher
 
 
 def cron(request):
-    return HttpResponse('cron')
+    try:
+        fetcher = Fetcher()
+        fetcher.fetch()
+    except:
+        return HttpResponse("Fetch failed.")
+    else:
+        return HttpResponse("Fetched successful.")
+
