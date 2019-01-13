@@ -1,13 +1,13 @@
 from daemon.dataSources import TrojmiastoDataSource
 
 
-class DataSourcePuller:
+class Fetcher:
     def __init__(self):
         self.sources = [
             TrojmiastoDataSource
         ]
 
-    def pull_data(self):
+    def fetch(self):
         for source in self.sources:
             try:
                 s = source()
