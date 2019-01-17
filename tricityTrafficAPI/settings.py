@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'daemon',
     'api',
-    'shared'
+    'shared',
+    'web'
 ]
 
 MIDDLEWARE = [
