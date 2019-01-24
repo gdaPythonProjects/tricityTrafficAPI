@@ -1,0 +1,10 @@
+beautifulsoup4==4.7.1
+bs4==0.0.1
+Django==2.1.5
+lxml==4.2.1
+pylint==2.2.2
+pytz==2018.9
+requests==2.21.0
+simplejson==3.13.2
+virtualenv==15.1.0
+djangorestframework==3.9.0
